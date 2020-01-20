@@ -13,6 +13,10 @@ def consolidate_cart(cart)
   cart.each do |element_hash|
     element_name = element_hash.keys[0]
     element_stats = element_hash.value[0]
+    
+    if element_hash.has_key[element_name]
+    
+  end
   
 end
 
