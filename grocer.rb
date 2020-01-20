@@ -22,6 +22,7 @@ def consolidate_cart(cart)
     end
     
   end
+  return final_hash
   
 end
 
