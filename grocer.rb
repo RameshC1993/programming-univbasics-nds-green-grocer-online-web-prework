@@ -16,7 +16,8 @@ def consolidate_cart(cart)
     
     if element_hash.has_key[element_name]
       element_stats[:count] += 1 
-      
+    else
+      final_hash[]
     
   end
   
