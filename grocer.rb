@@ -12,7 +12,7 @@ def consolidate_cart(cart)
   final_hash = {}
   cart.each do |element_hash|
     element_name = element_hash.keys[0]
-    element
+    element_stats = element_hash.value[0]
   
 end
 
