@@ -43,7 +43,7 @@ def apply_coupons(cart, coupons)
   # REMEMBER: This method **should** update cart
   i = 0 
   while i < coupons.length do 
-    
+    cart_item = 
     i += 1 
   end
 end
