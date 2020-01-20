@@ -11,6 +11,8 @@ def consolidate_cart(cart)
   # change `cart` (i.e. mutate) it. It's easier to return a new thing.
   final_hash = {}
   cart.each do |element_hash|
+    element_name = element_hash.keys[0]
+    element
   
 end
 
