@@ -19,7 +19,7 @@ def consolidate_cart(cart)
   new_cart = []
   i = 0 
   while i < cart.length do
-    
+    new_cart_item = find_item_by_name_in_collection()
     i += 1 
   end
   
