@@ -63,17 +63,17 @@ def apply_coupons(cart, coupons)
       while i <= couponitems_count do
         
         
+        temp_hash = {
+          :item => "#{citem[:item]} W/COUPON",
+          :price => per_unit_price,
+          :clearance => citem[:clearance],
+          :count => couponitem[:num]
+        }
+        
+        result << temp_hash
       end
       
       
-      temp_hash = {
-        :item => "#{citem[:item]} W/COUPON",
-        :price => per_unit_price,
-        :clearance => citem[:clearance],
-        :count => couponitem[:num]
-      }
-      
-      result << temp_hash
       citem[:count] = no_coupon_count
     end
     
