@@ -63,9 +63,9 @@ def apply_coupons(cart, coupons)
         cart[count][:count]  = no_coupon_count
         result << temp_hash
       end
-      result << cart[count] 
       counter += 1 
     end
+      result << cart[count] 
     count += 1 
   end
   return result
