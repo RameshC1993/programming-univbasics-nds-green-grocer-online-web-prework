@@ -48,7 +48,7 @@ def apply_coupons(cart, coupons)
   count = 0 
   while count < cart.length do 
     
-    item = cart[count]
+    citem = cart[count]
     
     havecoupon = find_item_by_name_in_collection(item)
     # counter = 0 
