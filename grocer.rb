@@ -54,7 +54,17 @@ def apply_coupons(cart, coupons)
     
     if couponitem
       no_coupon_count = couponitem[:num] % citem[:count]
+      coupon_applied_count = citem[:count] - no_coupon_count
       per_unit_price = couponitem[:cost] / couponitem[:num]
+      couponitems_count = coupon_applied_count / couponitem[:num] 
+      
+      i = 1
+      
+      while i <= couponitems_count do
+        
+        
+      end
+      
       
       temp_hash = {
         :item => "#{citem[:item]} W/COUPON",
