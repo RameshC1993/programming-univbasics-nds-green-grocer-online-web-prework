@@ -58,7 +58,7 @@ def apply_coupons(cart, coupons)
           :item => "#{cart[count][:item]} W/COUPON",
           :price => per_unit_price,
           :clearance => cart[count][:clearance],
-          :count => coupons[counter][:count]
+          :count => coupons_appiled_count
         }
         cart[count][:count]  = no_coupon_count
         result << temp_hash
