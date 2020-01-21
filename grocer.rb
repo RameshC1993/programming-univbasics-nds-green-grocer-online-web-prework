@@ -71,6 +71,7 @@ def apply_coupons(cart, coupons)
         }
         
         result << temp_hash
+        i += 1
       end
       
       
