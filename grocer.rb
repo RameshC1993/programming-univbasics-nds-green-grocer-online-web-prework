@@ -42,6 +42,8 @@ def apply_coupons(cart, coupons)
   #
   # REMEMBER: This method **should** update cart
   result = []
+  if coupons.length == 0 
+    return cart
   count = 0 
   while count < cart.length do 
     counter = 0 
