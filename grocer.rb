@@ -69,26 +69,6 @@ def apply_coupons(cart, coupons)
     
     result << citem
     
-    
-    # counter = 0 
-    # while counter < coupons.length do 
-    #   if cart[count][:item] == coupons[counter][:item]
-    #     no_coupon_count = coupons[counter][:num] % cart[count][:count]
-    #     coupons_appiled_count = cart[count][:count] - no_coupon_count
-    #     per_unit_price = coupons[counter][:cost] / coupons[counter][:num]
-        
-    #     temp_hash = {
-    #       :item => "#{cart[count][:item]} W/COUPON",
-    #       :price => per_unit_price,
-    #       :clearance => cart[count][:clearance],
-    #       :count => coupons_appiled_count
-    #     }
-    #     cart[count][:count]  = no_coupon_count
-    #     result << temp_hash
-    #   end
-    #   counter += 1 
-    # end
-      # result << cart[count] 
     count += 1 
   end
   return result
